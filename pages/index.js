@@ -96,7 +96,7 @@ const Home = () => {
                 <div><input type="submit" value="Sign Up" className="rounded-xl py-2 px-4 bg-[#1A8B44] w-full text-white w-[260px] max-w-full uppercase font-bold" /></div>
               </div>
               { (errorMessage && !isSuccess ) && <div class="sm:col-span-2"><p className="text-red-500 font-semibold text-center">Sorry something wrong. Please try again later.</p></div> }
-              { (!errorMessage && isSuccess ) && <div class="sm:col-span-2"><p className="text-[#1A8B44] font-semibold text-center">Thank you for your submission!</p></div> }
+              { (!errorMessage && isSuccess ) && <div class="sm:col-span-2"><p className="text-[#1A8B44] font-semibold text-center">We will update you the details about Green Future Festival soon!</p></div> }
             </div>
           </form>
 
