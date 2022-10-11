@@ -71,8 +71,6 @@ const Home = () => {
                     message: "Entered value does not match email format"
                   }
                 })} />
-                
-                {errors.emailAddress && <span className="text-xs text-red-500 italic">Invalid email address</span>}
                 {errors.emailAddress && <span className="text-xs text-red-500 italic">This field is required</span>}
               </div>
               <div className="">
